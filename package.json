@@ -105,7 +105,13 @@
     "vitest": "^0.34.1"
   },
   "peerDependencies": {
-    "@testing-library/dom": ">=10 <11"
+    "@testing-library/dom": ">=10 <11",
+    "vitest": ">= 0.32"
+  },
+  "peerDependenciesMeta": {
+    "vitest": {
+      "optional": true
+    }
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js",
